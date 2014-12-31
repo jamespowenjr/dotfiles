@@ -8,8 +8,10 @@ syntax on
 set ruler
 
 " Set tab spacing
-set ts=2
-set shiftwidth=2
+set ts=4
+set shiftwidth=4
+set expandtab
+set tabstop=4
 
 " Allow for CTRL left/right word skipping
 map <ESC>b <C-Left>
